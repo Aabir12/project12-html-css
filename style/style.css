@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+    max-width: 1440px;
+}
+body{
+    font-family: 'manrope', sans-serif;
+}
+
+#btn{
+    padding: 5px 15px;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 69, 0, 0.8);
+    box-shadow: 3px 3px 5px rgb(108, 106, 105);
+    border: 1px solid tomato;
+    border-radius: 8px;
+}
+.orange-touch{
+    color: orangered;
+}
+nav{
+    width: 100%;
+    margin: 0px 60px;
+    display: flex;
+}
+.logo-name{
+    display: flex;
+    width: 30%;
+    justify-content: left;
+
+   
+}
+#ent-name{
+   align-content: center;
+    
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+nav div {
+    display: flex;
+    width: 30%;
+    justify-content: right;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+
+    
+}
+nav ul li {
+    align-content: center;
+}
+.btn-contact{  
+     display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
